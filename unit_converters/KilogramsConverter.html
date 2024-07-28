@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../navbar.css">
+  <style>
+    body {
+      margin: 0;
+      background-color: #FCF8E8;
+    }
+  </style>
+  <title>Kilograms Converter</title>
+</head>
+<body>
+
+  <ul>
+    <li><a href="../converterhub.html">Back</a></li>
+  </ul>
+  <h2> Convert Kilograms </h2>
+  <input id="inputkgram" type="number" placeholder="Kilograms" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+
+  <p>Pounds: <span id="pound"></span></p>
+  <p>Ounces: <span id="ounce"></span></p>
+  <p>Grams: <span id="grams"></span></p>
+
+  <script>
+    function LengthConverter(valNum) {
+      document.getElementById("pound").innerHTML=valNum/(56699/125000);
+      document.getElementById("ounce").innerHTML=valNum/(56699/2000000);
+      document.getElementById("grams").innerHTML=valNum*1000;
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+</body>
+</html>

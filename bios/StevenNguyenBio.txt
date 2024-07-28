@@ -1,0 +1,1 @@
+Hi, my name is Steven, and I am a first-year undecided CCI major. My team and I are building a website called "Friendly Foodie". It will allow cooking to be less stressful and more fun. I am not the best at Git yet, but that does not mean I suck at it.

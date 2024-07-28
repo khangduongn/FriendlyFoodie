@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grams Converter</title>
+  <style>
+    body {
+      margin: 0;
+      /* background-color: #66F2C8; */
+			background-color: #FCF8E8;
+		}
+
+  </style>
+  <link rel="stylesheet" href="../navbar.css">
+</head>
+
+<body>
+  <ul>
+
+    <li><a href="../converterhub.html">Back</a></li>
+  </ul>
+
+  <h2> Convert Grams </h2>
+
+  <input id="inputgrams" type="number" placeholder="Grams" oninput="LengthConverter(this.value)"
+    onchange="LengthConverter(this.value)">
+
+  <p>Pounds: <span id="pound"></span></p>
+  <p>Ounces: <span id="ounce"></span></p>
+  <p>Kilograms: <span id="kgram"></span></p>
+
+  <script>
+    function LengthConverter(valNum) {
+      document.getElementById("pound").innerHTML = valNum / (56699 / 125);
+      document.getElementById("ounce").innerHTML = valNum / (56699 / 2000);
+      document.getElementById("kgram").innerHTML = valNum / 1000;
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+body {
+    font-family: 'inter';
+    overflow: scroll;
+    background-image: url('../images/plant-based-food-mc-220323-02-273c7b.jpg');
+    margin: 0;
+    
+}
+img {
+    width: 100%;
+}
+.nav-parent{
+    padding-left: 0em;
+    padding-right: 0em;
+}
+.navigation-bar {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;  /* i'm assuming full width */
+    height: 60px; /* change it to desired width */
+    background-color: white; /* change to desired color */
+    
+    
+}
+.nav-buttons{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 12em;
+    
+}
+.nav-buttons > a{
+    display: flex;
+    text-decoration: none;
+    color: #FA5629;
+    font-size: 20px;
+    margin-top: 7px;
+    padding: 10px 10px
+    
+}
+
+.nav-buttons > a:hover{
+    
+    text-decoration: none;
+    color:white;
+    background-color: #FA5629;
+    
+}
+
+.logo {
+    display: flex;
+    margin-top: 7px;
+    width: auto;
+    height: 40px;
+    align-items: center;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: -15px;
+}
+
+.login-h1 {
+    
+    font-size: 40x;
+    text-align: left;
+   
+}
+
+label, input {
+    margin: auto;
+    max-height: 100%;
+    width: 100%;
+
+}
+
+input {
+
+    height:25px;
+    font-size:14pt;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-style: solid;
+
+}
+
+.login-box {
+    margin-top: 15em;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 0.5px solid black;
+    opacity: 0.7;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sitename {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
+.submit-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30px;
+}

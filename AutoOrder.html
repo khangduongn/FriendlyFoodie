@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h3> Auto Order </h3>
+<select name="Auto Order" id="autord" >
+				<option value="Off">Disabled</option>
+				<option value="On">Enabled</option>
+				
+			</select>
+<h2>Auto Order feature</h2>
+
+<p>Disable/Enable the auto order feature</p>
+
+<p id="status"></p>
+
+<script>
+const hour = new Date().getHours(); 
+let autord;
+
+if (hour < 0) {
+  autord = "Steven's code";
+} else {
+  autord = "Inactive";
+}
+
+document.getElementById("status").innerHTML = autord;
+</script>
+
+</body>
+</html>
+W3 schools tutorial - 25 minutes

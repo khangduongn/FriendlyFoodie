@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    /* background-color: #66F2C8; */
+    font-family: 'inter';
+    background-color: #fff5f5f8;
+}
+
+.hero > p{
+    
+    font-size: 30px;
+    font-weight:bold;
+    margin-top: 150px;
+    margin-left: 30px;
+    text-align: center;
+    color: #FA5629 ;
+}
+
+.table table-striped table-bordered table-hover table-sm{
+    display: flex;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 0px;
+}
+
+div.modal-body > * {
+
+    margin-bottom: 10px;
+}
+
+.hidden-td, .btn-save {
+
+    display: none;
+
+}
+
+.search{
+    text-align: center;
+    size: 50px;
+}

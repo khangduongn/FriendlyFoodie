@@ -1,0 +1,68 @@
+.nav-parent{
+    font-family: 'inter';
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+.navigation-bar {
+    font-family: 'inter';
+    display: flex;
+    justify-content: space-between;
+    width: 100%;  /* i'm assuming full width */
+    height: 50px; /* change it to desired width */
+    background-color: white; /* change to desired color */
+    
+    
+}
+
+.nav-buttons{
+    font-family: 'inter';
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: auto;
+    
+}
+
+#gear-icon{
+    height: 25px;
+    width: 25px;
+}
+
+#logout-icon{
+    height: 25px;
+    width: 25px;
+}
+
+.nav-buttons > a{
+    font-family: 'inter';
+    letter-spacing: -0.5px;
+    display: flex;
+    text-decoration: none;
+    color: #FA5629;
+    font-size: 17px;
+    margin-top: 7px;
+    padding: 10px 10px
+    
+}
+
+.active{
+    text-decoration: none;
+    color:#FA5629;
+    background-color: #fff5f5f8;
+}
+
+.nav-buttons > a:hover{
+    
+    text-decoration: none;
+    color:#FA5629;
+    background-color: #edc2adec;
+}
+
+.logo {
+    display: flex;
+    margin-top: 7px;
+    width: auto;
+    height: 40px;
+    align-items: center;
+}
