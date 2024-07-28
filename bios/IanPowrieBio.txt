@@ -1,8 +1,0 @@
-My name is Ian Powrie, I am a first year Data science student. I am new to GitLab, and the coding experience.
-
-I have some experience with CLIs, but I am still overall fairly new to them. I am a first year data science major. 
-
-I chose Drexel because of the Co-op opportunities
-
-CI102 is the hardest class for me so far.
-
